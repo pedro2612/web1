@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>Search Results</title>
+    </head>
+    
+    <body>
+        %for l in list:
+            {{l}}
+        %end
+        <br><br><br><a href="localhost:1996/index">Back</a>
+    </body>
+
+</html>
